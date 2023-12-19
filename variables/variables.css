@@ -4,22 +4,28 @@
 /* .imgBanner {
   display: none;
 } */
+::root {
+  --COLOR: green;
+  --BGCOLOR: #475569;
+  --ALT-BGCOLOR: gold;
+  --BGCOLOR-DARK: #111;
+}
 .imgInfo h1 {
   padding: 30px 30px 20px;
   font-family: Arial;
-  color: #61e31a;
+  color: green;
   font-size: 50px;
   line-height: 44px;
 }
 .imgInfo p {
   padding: 0px 30px 20px;
   font-family: Arial;
-  color: #111;
+  color: var(--BGCOLOR-DARK);
   font-size: 16px;
   line-height: 24px;
 }
 .banner h1 {
-  color: green;
+  color: var(--COLOR);
 }
 
 /* background.styling */
@@ -32,8 +38,8 @@
 body {
   font: "1.5rem nunito" sans-sarif;
   min-height: 100vh;
-  background-color: #475569;
-  background-image: radial-gradient(whitesmoke, #475569);
+  background-color: var(--BGCOLOR);
+  background-image: radial-gradient(whitesmoke, #1f3049);
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +47,7 @@ body {
 }
 header,
 nav,
-main,
+/* main, */
 footer {
   display: grid;
   place-content: center;
@@ -64,7 +70,32 @@ nav {
   padding: 0.5rem;
 }
 main {
-  flex-grow: 1;
+  flex-grow: 5;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: min(4vw 15px);
+}
+#highlight {
+  background-color: rgb(184, 66, 66);
+}
+.square {
+  background-color: papayawhip;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+  font-size: 40px;
+  margin: 10px;
+  box-shadow: #111;
+}
+#laptop {
+  margin: 10px;
+  /* margin-bottom: 10px; */
 }
 footer {
   bottom: 0;
@@ -72,8 +103,8 @@ footer {
 
 @media screen and (mid-width: 576px) {
   body {
-    background-color: green;
-    background-image: radial-gradient (whitesmoke, green);
+    background-color: var(--COLOR);
+    background-image: radial-gradient (whitesmoke, var(--COLOR));
   }
 }
 nav {
@@ -82,8 +113,8 @@ nav {
 
 @media screen and (mid-width: 768px) {
   body {
-    background-color: gold;
-    background-image: radial-gradient (whitesmoke, gold);
+    background-color: var(--ALT-BGCOLOR);
+    background-image: radial-gradient (whitesmoke, var(--ALT-BGCOLOR));
   }
 }
 nav {
