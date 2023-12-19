@@ -1,0 +1,383 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wholeBody {
+  background-image: url(https://i.ibb.co/SPZD6fx/banner.jpg);
+  background-size: cover;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.name {
+  color: rgb(139, 24, 24);
+}
+.name h1:hover {
+  color: rgb(169, 59, 169);
+}
+
+.heading {
+  position: relative;
+
+  background-color: #efefef;
+}
+.heading img {
+  width: 200px;
+  height: 150px;
+}
+.head {
+  display: flex;
+  /* margin: 10px 20px; */
+  width: 80%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.head ul li {
+  margin: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.head ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.head ul li a:hover {
+  color: red;
+}
+.details {
+  padding: 15px;
+}
+span {
+  color: orange;
+  font-style: italic;
+}
+.details p {
+  line-height: 25px;
+  color: rgb(241, 241, 241);
+  font-size: 20px;
+}
+.details a {
+  background: black;
+  text-decoration: none;
+  margin: 10px 18px;
+  font-weight: bold;
+  color: wheat;
+  display: inline-block;
+  margin: 30px;
+}
+.details {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.details h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #b8b6b6;
+}
+.button a {
+  font-size: bold;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+}
+.button {
+  margin-bottom: 40px;
+}
+
+.aboutMe h1 h3 {
+  text-align: center;
+}
+.aboutMe h3 span {
+  color: crimson;
+}
+
+.aboutMe {
+  text-align: center;
+}
+.fcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+.fprofile {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 20rem;
+}
+
+.fdescription {
+  box-sizing: border-box;
+  width: 42rem;
+  height: 30rem;
+  padding-top: 100px;
+}
+#aboutMeSection {
+  padding: 20px 0px;
+}
+.downloadButton a {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: crimson;
+  color: white;
+  width: 100px;
+  height: auto;
+}
+
+#services {
+  background-color: rgb(108, 86, 86);
+  color: white;
+  background-size: cover;
+}
+#servicesSection {
+  text-align: center;
+  padding: 30px;
+}
+#servicesSection h3 span {
+  color: crimson;
+}
+.servicePara {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.fpartOne {
+  padding: 13px;
+  box-sizing: border-box;
+  width: 450px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+/* .fpartTwo {
+  padding: 25px;
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+} */
+.servicePara h1 p:hover {
+  color: crimson;
+}
+
+#skillHeading {
+  text-align: center;
+  padding: 30px;
+}
+#skillHeading h3 span {
+  color: crimson;
+}
+.skillSection {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 25px;
+}
+.skillOne {
+  line-height: 30px;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 20px;
+}
+/* .skillTwo {
+  padding: 44px 25px;
+  width: 500px;
+  height: auto;
+  line-height: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+} */
+
+.click a {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  margin-right: 10px;
+  flex-flow: row wrap;
+  text-decoration: none;
+}
+.instagram a {
+  /* margin-top: 20px; */
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+}
+#contactMe {
+  text-align: center;
+  padding: 30px;
+}
+#contactMe h3 span {
+  color: crimson;
+}
+.contactForm {
+  background-image: radial-gradient(whitesmoke, violet);
+}
+.contactSection {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px 50px 30px;
+  /* margin: 30px;  */
+}
+.contacts {
+  border-radius: 10px;
+}
+.form {
+  padding: 27px 0px 0px 0px;
+  border-radius: 10px;
+  line-height: 40px;
+}
+.form a {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+}
+.Hello {
+  padding-left: 11px;
+}
+#sendMessageButton {
+  margin-top: 30px;
+}
+.downloadButton {
+  margin-top: 30px;
+}
+/* mobile  */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  #desktopNavbar {
+    display: none;
+  }
+  #navbarMobileMenu {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-size: 10px;
+    gap: 15px;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    /* margin-top: 60px; */
+  }
+  /* .contactSection {
+    margin: 16px;
+  } */
+  #clickHere {
+    display: flex;
+    /* padding: 10px 20px;  */
+    flex-flow: row wrap;
+    padding: 15px 10px;
+    text-decoration: none;
+  }
+  #services {
+    margin-top: 410px;
+  }
+  #skillOneMobile {
+    margin-bottom: 15px;
+  }
+
+  #contactMobile {
+    padding: 10px 0px;
+  }
+  .servicePara {
+    padding: 2px;
+    margin: 3px;
+  }
+  .skillOne {
+    padding: 8px;
+    margin: 5px;
+  }
+  .skillSection {
+    padding: 3px;
+    margin: 2px;
+  }
+  #aboutMobile {
+    font-size: 14px;
+  }
+  .fcontainer {
+    padding: 0px 0px 0px 0px;
+  }
+  #aboutMeSection {
+    padding: 40px 0px 0px 0px;
+  }
+  .fdescription {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 15rem;
+    height: 20rem;
+  }
+  .downloadButton a {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 10px;
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+  }
+  .downloadButton {
+    margin-top: 40px;
+  }
+  .skillOne {
+    font-size: 12px;
+  }
+  .wholeBody {
+    height: 100vh;
+  }
+  .click a {
+    margin-top: 20px;
+    padding: 10px 15px;
+  }
+  .form a {
+    padding: 15px 20px;
+  }
+}
+
+/* desktop  */
+@media screen and (min-width: 481px) {
+  #mobileNavbar {
+    display: none;
+  }
+}
