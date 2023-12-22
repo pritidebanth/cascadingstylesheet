@@ -220,7 +220,7 @@ figcaption {
 .thirdPage_6 {
   display: flex;
   justify-content: space-around;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   margin-top: 50px;
   /* margin-right: 70px; */
 }
@@ -243,4 +243,12 @@ figcaption {
 #price {
   font-weight: bold;
   color: #1d1d44;
+}
+.fourthPage_1 {
+  font-size: 27px;
+  font-weight: bold;
+  max-width: 800px;
+  color: rgb(15, 6, 71);
+  margin-top: 5rem;
+  margin-left: 70px;
 }

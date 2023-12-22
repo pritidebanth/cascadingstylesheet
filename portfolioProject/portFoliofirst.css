@@ -11,19 +11,30 @@ html {
   background-image: url(https://i.ibb.co/SPZD6fx/banner.jpg);
   background-size: cover;
   height: 100vh;
-  scroll-behavior: smooth;
 }
-
+#frontPage_1 {
+  display: flex;
+  justify-content: space-around;
+}
+.frontPageImage {
+  margin-right: 90px;
+  margin-top: 60px;
+  transition: scale 1s linear;
+}
+.frontPageImage:hover {
+  scale: 1.2;
+}
 .name {
   color: rgb(139, 24, 24);
+  margin: 10px 0px 10px 20px;
 }
 .name h1:hover {
   color: rgb(169, 59, 169);
 }
 
 .heading {
-  position: relative;
-
+  position: sticky;
+  top: 0;
   background-color: #efefef;
 }
 .heading img {
@@ -33,10 +44,14 @@ html {
 .head {
   display: flex;
   /* margin: 10px 20px; */
-  width: 80%;
+  /* width: 98%; */
   height: auto;
   align-items: center;
   justify-content: space-between;
+}
+.navbar {
+  padding-left: 30px;
+  padding-right: 5px;
 }
 .head ul li {
   margin: 10px;
@@ -47,7 +62,7 @@ html {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .head ul li a:hover {
@@ -66,6 +81,9 @@ span {
   font-size: 20px;
 }
 .details a {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
   background: black;
   text-decoration: none;
   margin: 10px 18px;
@@ -73,11 +91,21 @@ span {
   color: wheat;
   display: inline-block;
   margin: 30px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+}
+.details a:hover {
+  width: 200px;
+  background-color: white;
+  color: crimson;
 }
 .details {
   margin-top: 10%;
   margin-left: 5%;
 }
+
 .details h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -99,35 +127,66 @@ span {
 .aboutMe h3 span {
   color: crimson;
 }
+#skillHeading h3 span {
+  color: crimson;
+}
 
 .aboutMe {
   text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
 }
 .fcontainer {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
 }
 .fprofile {
-  padding: 0px;
+  margin-right: 20px;
   box-sizing: border-box;
   width: 20rem;
   height: 20rem;
+  transition: scale 1s linear;
 }
-
+.fprofile:hover {
+  scale: 1.2;
+}
 .fdescription {
   box-sizing: border-box;
   width: 42rem;
   height: 30rem;
   padding-top: 100px;
 }
-#aboutMeSection {
-  padding: 20px 0px;
+.fdescription p {
+  margin-top: 20px;
+  transition-property: large;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: s;
 }
-.downloadButton a {
+.fdescription p:hover {
+  font-size: large;
+}
+.fdescription h1 p {
+  font-size: 60px;
+}
+
+/* .fdescription h1:hover {
+  font-size: 40px;
+} */
+
+#aboutMeSection {
+  background-image: radial-gradient(whitesmoke, #6a5acd);
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+/* #aboutMeSection {
+  padding: 20px 0px;
+} */
+/* .downloadButton a {
   font-size: 12px;
   font-weight: 600;
   padding: 15px 20px;
@@ -136,8 +195,8 @@ span {
   color: white;
   width: 100px;
   height: auto;
-}
-
+} */
+/* 
 #services {
   background-color: rgb(108, 86, 86);
   color: white;
@@ -178,23 +237,27 @@ span {
   border-radius: 10px;
   margin: 20px;
 } */
-.servicePara h1 p:hover {
+/* .servicePara h1 p:hover {
   color: crimson;
+} */
+#mySkills {
+  background-color: black;
+  padding-bottom: 20px;
 }
-
 #skillHeading {
   text-align: center;
-  padding: 30px;
+  padding: 55px;
+  padding-top: 40px;
+  font-size: 25px;
+  color: white;
 }
-#skillHeading h3 span {
-  color: crimson;
-}
+
 .skillSection {
   display: flex;
   flex-flow: row wrap;
   box-sizing: border-box;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px;
   margin: 25px;
 }
@@ -202,11 +265,23 @@ span {
   line-height: 30px;
   padding: 25px;
   box-sizing: border-box;
-  width: 400px;
-  height: auto;
+  width: 500px;
+  height: 350px;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid #222;
   margin: 20px;
+  background-color: #222;
+  color: white;
+}
+.skillOne:hover {
+  font-size: large;
+  border: 2px solid crimson;
+  background-color: crimson;
+  color: white;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
 }
 /* .skillTwo {
   padding: 44px 25px;
@@ -228,31 +303,56 @@ span {
   flex-flow: row wrap;
   text-decoration: none;
 }
-.instagram a {
-  /* margin-top: 20px; */
+.click a:hover {
+  background-color: #111;
+  color: white;
+}
+input {
+  border-radius: 10px;
+  padding: 8px;
+}
+textarea {
+  border-radius: 10px;
+  padding: 8px;
+}
+/* .instagram a {
+  margin-top: 20px;
   font-weight: 600;
   padding: 20px 30px;
   border-radius: 20px;
   background-color: crimson;
   color: white;
   text-decoration: none;
+} */
+.call {
+  transition: scale 1s linear;
+}
+.call:hover {
+  scale: 0.6;
+}
+.email {
+  transition: scale 1s linear;
+}
+.email:hover {
+  scale: 0.7;
 }
 #contactMe {
   text-align: center;
-  padding: 30px;
+  padding: 70px;
+  font-size: 25px;
 }
 #contactMe h3 span {
   color: crimson;
 }
 .contactForm {
-  background-image: radial-gradient(whitesmoke, violet);
+  background-image: radial-gradient(whitesmoke, #402dbb);
 }
 .contactSection {
   display: flex;
   box-sizing: border-box;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 30px 50px 30px;
   /* margin: 30px;  */
 }
@@ -272,16 +372,33 @@ span {
   background-color: crimson;
   color: white;
   text-decoration: none;
+  transition: width 1s 0.1s linear;
 }
-.Hello {
+.form a:hover {
+  width: 150px;
+}
+.contactDetails {
   padding-left: 11px;
 }
 #sendMessageButton {
   margin-top: 30px;
 }
-.downloadButton {
-  margin-top: 30px;
+
+.backToTop {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+  position: sticky;
+  bottom: 0;
 }
+.backToTop a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+/* .downloadButton {
+  margin-top: 30px;
+} */
 /* mobile  */
 @media screen and (min-width: 0px) and (max-width: 480px) {
   #desktopNavbar {
@@ -292,13 +409,13 @@ span {
     flex-flow: row wrap;
     text-align: center;
     font-size: 10px;
-    gap: 15px;
+    gap: 36px;
     list-style: none;
     padding: 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     /* margin-top: 60px; */
   }
@@ -336,6 +453,7 @@ span {
   }
   #aboutMobile {
     font-size: 14px;
+    padding-bottom: 353px;
   }
   .fcontainer {
     padding: 0px 0px 0px 0px;
