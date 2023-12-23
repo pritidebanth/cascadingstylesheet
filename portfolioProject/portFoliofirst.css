@@ -15,6 +15,7 @@ html {
 #frontPage_1 {
   display: flex;
   justify-content: space-around;
+  /* flex-flow: row wrap; */
 }
 .frontPageImage {
   margin-right: 90px;
@@ -24,8 +25,17 @@ html {
 .frontPageImage:hover {
   scale: 1.2;
 }
+
+.details span {
+  color: rgb(135, 235, 213);
+}
+progress {
+  background-color: rgb(119, 235, 210);
+  color: darkblue;
+}
+
 .name {
-  color: rgb(139, 24, 24);
+  color: crimson;
   margin: 10px 0px 10px 20px;
 }
 .name h1:hover {
@@ -72,7 +82,7 @@ html {
   padding: 15px;
 }
 span {
-  color: orange;
+  color: rgb(0, 0, 92);
   font-style: italic;
 }
 .details p {
@@ -99,7 +109,7 @@ span {
 .details a:hover {
   width: 200px;
   background-color: white;
-  color: crimson;
+  color: rgb(0, 0, 0);
 }
 .details {
   margin-top: 10%;
@@ -116,19 +126,25 @@ span {
   padding: 20px 30px;
   border-radius: 20px;
   background-color: crimson;
+  filter: drop-shadow(1px 1px 2px black);
 }
 .button {
   margin-bottom: 40px;
 }
-
+.button a:hover {
+  background-color: black;
+  color: white;
+}
 .aboutMe h1 h3 {
   text-align: center;
 }
 .aboutMe h3 span {
   color: crimson;
+  filter: drop-shadow(1px 1px 2px black);
 }
 #skillHeading h3 span {
   color: crimson;
+  filter: drop-shadow(1px 1px 2px black);
 }
 
 .aboutMe {
@@ -150,6 +166,7 @@ span {
   width: 20rem;
   height: 20rem;
   transition: scale 1s linear;
+  filter: drop-shadow(2px 2px 1px black);
 }
 .fprofile:hover {
   scale: 1.2;
@@ -160,15 +177,18 @@ span {
   height: 30rem;
   padding-top: 100px;
 }
-.fdescription p {
+.fdescription ul {
+  font-size: 20px;
   margin-top: 20px;
+  margin-left: 20px;
   transition-property: large;
   transition-duration: 0.3s;
   transition-timing-function: linear;
-  transition-delay: s;
+  transition-delay: 1s;
+  list-style-type: circle;
 }
-.fdescription p:hover {
-  font-size: large;
+.fdescription ul:hover {
+  font-size: 22px;
 }
 .fdescription h1 p {
   font-size: 60px;
@@ -179,7 +199,7 @@ span {
 } */
 
 #aboutMeSection {
-  background-image: radial-gradient(whitesmoke, #6a5acd);
+  background-image: radial-gradient(whitesmoke, #383838);
   padding-top: 40px;
   padding-bottom: 80px;
 }
@@ -262,7 +282,7 @@ span {
   margin: 25px;
 }
 .skillOne {
-  line-height: 30px;
+  line-height: 26px;
   padding: 25px;
   box-sizing: border-box;
   width: 500px;
@@ -274,14 +294,21 @@ span {
   color: white;
 }
 .skillOne:hover {
-  font-size: large;
-  border: 2px solid crimson;
-  background-color: crimson;
-  color: white;
+  font-size: 17px;
+  border: 2px solid #ffea00;
+  background-color: #ffea00;
+  color: black;
   transition-property: width;
   transition-duration: 0.3s;
   transition-timing-function: linear;
   transition-delay: 2s;
+}
+.skillOne h2 {
+  font-family: italic;
+  text-transform: capitalize;
+}
+.code {
+  font-weight: bold;
 }
 /* .skillTwo {
   padding: 44px 25px;
@@ -293,7 +320,7 @@ span {
 } */
 
 .click a {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: 600;
   padding: 20px 30px;
   border-radius: 20px;
@@ -343,9 +370,10 @@ textarea {
 }
 #contactMe h3 span {
   color: crimson;
+  filter: drop-shadow(1px 1px 2px black);
 }
 .contactForm {
-  background-image: radial-gradient(whitesmoke, #402dbb);
+  background-image: radial-gradient(whitesmoke, rgb(102, 100, 100));
 }
 .contactSection {
   display: flex;
@@ -404,6 +432,9 @@ textarea {
   #desktopNavbar {
     display: none;
   }
+  .frontPageImage {
+    padding-bottom: 500px;
+  }
   #navbarMobileMenu {
     display: flex;
     flex-flow: row wrap;
@@ -429,9 +460,9 @@ textarea {
     padding: 15px 10px;
     text-decoration: none;
   }
-  #services {
+  /* #services {
     margin-top: 410px;
-  }
+  } */
   #skillOneMobile {
     margin-bottom: 15px;
   }
@@ -498,4 +529,12 @@ textarea {
   #mobileNavbar {
     display: none;
   }
+}
+.call {
+  text-decoration: none;
+  color: #111;
+}
+.mail {
+  text-decoration: none;
+  color: #111;
 }
