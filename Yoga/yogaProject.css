@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+/* body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+} */
+.heading-nav {
+  padding-left: 7rem;
+}
+.nameBrand {
+  color: rgb(19, 20, 20);
+  /* padding: 1rem 0 1rem 0;
+  background: transparent; */
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.nav-link {
+  list-style: none;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #474343;
+}
+.nav-items ul {
+  display: flex;
+  gap: 15pxpx;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  max-width: 1140px;
+  flex-wrap: nowrap;
+  padding-top: 1.5rem;
+}
+.subheading {
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 40px;
+  font-family: "Reenie Beanie", cursive;
+  color: #474343;
+  padding-left: 7rem;
+}
+.firstPage h1 {
+  padding-left: 7rem;
+  font-size: 60px;
+  font-weight: 300;
+  color: #363333;
+  opacity: 5;
+  line-height: 1.5px;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-bottom: 3rem;
+}
+.para-1 {
+  margin-bottom: 5rem;
+  padding-left: 7rem;
+  color: #474343;
+  line-height: 2rem;
+}
+.hero-wrap {
+  background-image: url(./benjamin-child-rOn57CBgyMo-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20rem;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1740px;
+  width: auto;
+  height: auto;
+}
+.secondPageSection {
+  padding: 7rem 0;
+  width: 100%;
+  position: relative;
+}
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-left: 10rem;
+  padding-right: 10rem;
+  gap: 20px;
+}
+.cols-1 {
+  width: 650px;
+  height: auto;
+  padding: 30px;
+}
+.services {
+  display: flex;
+  gap: 10px;
+}
+.heading-box {
+  line-height: 1.8rem;
+}

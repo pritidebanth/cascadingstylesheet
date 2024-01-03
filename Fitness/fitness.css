@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.colored-line {
+/* .colored-line {
   display: flex;
   position: static;
   float: none;
@@ -28,14 +28,14 @@
   width: 20%;
   height: 10px;
   flex: 0 0 20%;
-}
+} */
 .Nova {
   font-size: 25px;
   font-weight: 900;
   color: white;
 }
 .header-6 {
-  background-image: url(https://preview.colorlib.com/theme/nova/images/hero_1.jpg.webp);
+  background-image: url(./thao-lee-Xl-ilWBKJNk-unsplash.jpg);
   /* background-image: linear-gradient(to bottom, #2c2a2a, #5e5a5a); */
   background-size: cover;
   background-position: center center;
@@ -66,7 +66,25 @@
   list-style: none;
   display: flex;
   gap: 15px;
+  text-transform: uppercase;
 }
+/* .header-2 ul li a {
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+.header-2 ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  left: 0;
+  width: 0%;
+  border-bottom: 0.2rem solid black;
+  transition: all 0.3s linear;
+}
+.header-2 ul li a:hover:after {
+  width: 100%;
+} */
 .header-3 {
   text-transform: uppercase;
   font-size: 33px;
@@ -74,13 +92,13 @@
 }
 .header-para {
   font-size: 14px;
-  color: rgba(128, 128, 128, 0.767);
+  color: #080808;
 }
 .header-4 {
   text-align: center;
   flex-direction: column;
-  padding-top: 112px;
-  color: #b3a0a0;
+  padding-top: 200px;
+  color: #ffffff;
 }
 .header-btn {
   width: 80px;
@@ -134,7 +152,7 @@
   font-size: 14px;
 }
 .secondPage ul {
-  list-style: none;
+  /* list-style: none; */
   font-size: 14px;
   color: rgb(141, 136, 136);
 }
@@ -146,19 +164,29 @@
 .secondPageBtn a {
   display: inline-block;
   font-size: 12px;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
   color: white;
 }
+/* .secondPageBtn:hover {
+  background-color: white;
+} */
 .secondPageBtn {
+  filter: drop-shadow(1px 1px 2px black);
   margin-top: 2.5rem;
   width: 162px;
   padding: 12px 30px;
   border-radius: 30px;
   background-color: #ec0101;
   color: #fff;
+  transition: all 0.3s linear;
 }
+/* .secondPageBtn:hover {
+  background-color: white;
+  color: crimson;
+} */
 .Image img {
   /* padding-bottom: 50px;
   margin-bottom: 50px; */
@@ -311,6 +339,7 @@ p a {
   line-height: 21px;
   font-size: 14px;
 }
+
 .text {
   font-size: 14px;
   /* line-height: 21px; */
@@ -402,6 +431,9 @@ span {
 .sixthPage-4 p {
   padding-bottom: 1rem;
 }
+.sixthPage-3:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
 .sixthSection {
   padding: 0px 50px 0px 50px;
   background-color: rgba(252, 241, 244, 0.788);
@@ -487,8 +519,11 @@ span {
   #Head {
     display: none;
   }
+  .header-4 {
+    padding-top: 200px;
+  }
   .header-6 {
-    height: 70vh;
+    height: 90vh;
   }
   .header-5 img {
     width: 40px;
@@ -515,13 +550,13 @@ span {
   .Image img {
     width: 357px;
     height: 270px;
-    margin-left: 6px;
+    margin-left: 21px;
   }
   .ProfileImageClass {
     width: 82%;
     margin-left: 2rem;
     margin-right: 5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   .secondpage-1 {
     font-size: 25px;
