@@ -488,8 +488,8 @@
   overflow-x: scroll;
 }
 .Routine {
-  width: 145px;
-  height: 157px;
+  padding-left: 20px;
+  padding-right: 33px;
   align-items: center;
   background-color: whitesmoke;
   border: 1px solid #dbcbcbc4;
@@ -501,8 +501,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 145px;
-  height: 157px;
+  padding-left: 4.2rem;
+  padding-right: 4.2rem;
   border: 1px solid #dbcbcbc4;
 }
 .trainerProfile {
@@ -528,23 +528,22 @@
 }
 .trainerSchedule {
   display: flex;
-  font-size: 14px;
+  font-size: 13px;
   font-family: sans-serif;
 }
 .Schedule {
   display: flex;
-  width: 145px;
-  height: 90px;
   align-items: center;
   border: 1px solid #dbcbcbc4;
+  padding-left: 35px;
+  padding-right: 36px;
 }
 .schedule {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 145px;
-  height: 90px;
   border: 1px solid #dbcbcbc4;
+  padding: 2rem 4.2rem 2rem 4.2rem;
 }
 
 .yoga-jpg img {
