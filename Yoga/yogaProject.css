@@ -408,7 +408,7 @@
   padding: 50px;
   background-color: #6cae22;
   position: relative;
-  width: 507px;
+  width: 482px;
   height: 515px;
 }
 .row-6 {
@@ -417,9 +417,9 @@
   padding: 4rem 6rem 5rem;
 }
 .testomonyPara {
-  padding-top: 5rem;
+  padding-top: 2rem;
   line-height: 30px;
-  font-size: 19px;
+  font-size: 18px;
   color: white;
 }
 .cols-6 {
@@ -459,6 +459,7 @@
 }
 
 /* //SEVENTH PAGE */
+
 .cols-7 {
   text-align: center;
   padding-top: 7rem;
@@ -484,6 +485,7 @@
 .table {
   padding-left: 11rem;
   padding-right: 11rem;
+  overflow-x: scroll;
 }
 .Routine {
   width: 145px;
@@ -544,8 +546,7 @@
   height: 90px;
   border: 1px solid #dbcbcbc4;
 }
-.Schedule {
-}
+
 .yoga-jpg img {
   border-radius: 50%;
 }
@@ -809,6 +810,10 @@
   .cols-10-2 {
     padding-left: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+  .table {
+    padding-left: 1rem;
+    padding-right: 0rem;
   }
 }
 
