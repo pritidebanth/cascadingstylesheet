@@ -468,6 +468,7 @@
 .row-7 {
   display: flex;
   border: 1px solid #dbcbcbc4;
+  width: 1014px;
 }
 .routine {
   padding: 2rem;
@@ -477,7 +478,6 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  border-bottom: 1px solid #dbcbcbc4;
   font-size: 17px;
   font-weight: 900;
   font-family: sans-serif;
