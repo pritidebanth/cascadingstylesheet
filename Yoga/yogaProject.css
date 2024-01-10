@@ -526,6 +526,9 @@
 .trainerProfile7 {
   display: flex;
 }
+.trainerProfile8 {
+  display: flex;
+}
 .trainerSchedule {
   display: flex;
   font-size: 13px;
@@ -535,8 +538,8 @@
   display: flex;
   align-items: center;
   border: 1px solid #dbcbcbc4;
-  padding-left: 35px;
-  padding-right: 36px;
+  width: 10rem;
+  justify-content: center;
 }
 .schedule {
   display: flex;
@@ -544,6 +547,8 @@
   align-items: center;
   border: 1px solid #dbcbcbc4;
   padding: 2rem 4.2rem 2rem 4.2rem;
+  width: 9.1rem;
+  height: 7rem;
 }
 
 .yoga-jpg img {
@@ -751,7 +756,7 @@
   }
   .firstPage h1 {
     padding-left: 1rem;
-    font-size: 37px;
+    font-size: 34px;
   }
   .para-1 {
     padding-left: 1rem;
@@ -775,10 +780,13 @@
     top: 8%;
   }
   .ThirdImg {
-    width: 435px;
+    width: 306px;
   }
   .rightSide {
     padding: 7rem 1rem 7rem;
+  }
+  .rightSideImg {
+    flex-wrap: wrap;
   }
   .overlay {
     flex-wrap: wrap;
