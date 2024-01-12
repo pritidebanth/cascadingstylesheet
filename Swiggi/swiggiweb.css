@@ -9,59 +9,74 @@
 .container {
   display: flex;
 }
+
 .container-2 {
   display: flex;
   gap: 25px;
+  justify-content: center;
+  align-items: center;
 }
+
 #desktop {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  /* margin-top: 20px; */
   align-items: center;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
 .cols-2 {
   display: flex;
   width: 200px;
   align-items: center;
 }
+
 .header-2 {
   background: #d9c6c67d;
   padding: 3px;
   border-radius: 50%;
 }
+
 .header-1 span {
   font-size: 12px;
   padding-right: 27px;
 }
+
 .header-1 p {
   padding-left: 15px;
   font-size: 14px;
   font-weight: lighter;
 }
+
 .cols-3 img {
   padding-top: 3px;
 }
+
 .cols-3 {
   padding-top: 9px;
 }
+
 .cols-5 {
   padding-top: 6px;
 }
+
 .cols-6 {
   padding-top: 4px;
 }
+
 .cols-7 {
   padding-top: 10px;
 }
+
 .cols-8 {
   padding-top: 12px;
 }
+
 .cols-3 p {
   font-size: 14px;
 }
+
 .cols-4 {
   font-size: 14px;
   background: crimson;
@@ -69,18 +84,23 @@
   padding: 10px 25px 10px 25px;
   border-radius: 17px;
 }
+
 .cols-5 span {
   font-size: 14px;
 }
+
 .cols-5 img {
   border-radius: 50%;
 }
+
 .cols-6 span {
   font-size: 14px;
 }
+
 .cols-6 img {
   border-radius: 50%;
 }
+
 .cols-7 span {
   font-size: 14px;
 }
@@ -91,6 +111,7 @@
   gap: 15px;
   justify-content: center;
 }
+
 .french-fries {
   width: 130px;
   height: 80px;
@@ -98,9 +119,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .french-fries p {
   font-size: 12px;
 }
+
 .pizza {
   width: 130px;
   height: 80px;
@@ -108,9 +131,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .pizza p {
   font-size: 12px;
 }
+
 .burger {
   width: 130px;
   height: 80px;
@@ -118,9 +143,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .burger p {
   font-size: 12px;
 }
+
 .sandwich {
   width: 130px;
   height: 80px;
@@ -128,9 +155,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .sandwich p {
   font-size: 12px;
 }
+
 .coffee {
   width: 130px;
   height: 80px;
@@ -138,9 +167,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .coffee p {
   font-size: 12px;
 }
+
 .steak {
   width: 130px;
   height: 80px;
@@ -148,9 +179,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .steak p {
   font-size: 12px;
 }
+
 .colacan {
   width: 130px;
   height: 80px;
@@ -158,9 +191,11 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .colacan p {
   font-size: 12px;
 }
+
 .breakfast {
   width: 130px;
   height: 80px;
@@ -168,14 +203,17 @@
   border-radius: 5px;
   background-color: white;
 }
+
 .breakfast p {
   font-size: 12px;
 }
+
 .secondSection {
   background-color: whitesmoke;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 /* //THIRD SECTION */
 .Third {
   display: flex;
@@ -183,20 +221,28 @@
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.thirdSection {
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .thirdImage img {
   border-radius: 5px;
 }
+
 /* //FOURTH SECTION */
 .fourthSection {
   font-family: mulish, sans-serif;
   background-color: whitesmoke;
 }
+
 .fourth-1 h3 {
   font-weight: lighter;
 }
+
 .fourth-1 {
   display: flex;
   justify-content: space-between;
@@ -204,18 +250,22 @@
   padding-right: 7.5rem;
   padding-top: 1rem;
 }
+
 .fourth-1 span {
   font-size: 14px;
   color: red;
 }
+
 .list-class-image {
   position: relative;
   width: 362px;
 }
+
 .feather-star {
   font-size: 12px;
   letter-spacing: -1px;
 }
+
 .feather-heart {
   background-color: #fff;
   width: 23px;
@@ -226,6 +276,7 @@
   top: 5px;
   right: 5px;
 }
+
 .feather-promoted {
   font-size: 13px;
   letter-spacing: -1px;
@@ -238,6 +289,7 @@
   top: 10px;
   left: 10px;
 }
+
 .star-position-absolute {
   position: absolute;
   background-color: green;
@@ -248,9 +300,11 @@
   bottom: 15px;
   font-weight: 600;
 }
+
 .dish-1-image a img {
   border-radius: 5px 5px 0 0;
 }
+
 /* LOWER PART */
 .Menu {
   display: flex;
@@ -258,6 +312,7 @@
   padding: 2rem;
   justify-content: center;
 }
+
 .cardLowerpart {
   width: 362px;
   position: relative;
@@ -265,27 +320,33 @@
   border-radius: 0 0 5px 5px;
   background-color: white;
 }
+
 .cardLowerpart h3 {
   font-weight: 400;
   font-size: 17px;
   padding-bottom: 7px;
 }
+
 .Clock {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
 }
+
 .clock-1 {
   font-size: 13px;
   padding-bottom: 2px;
 }
+
 .clock-2 {
   font-size: 12px;
   color: gray;
 }
+
 .clock-1 img {
   padding-top: 2px;
 }
+
 .cardLowerpart ul {
   font-size: 13px;
   color: gray;
@@ -293,6 +354,7 @@
   gap: 15px;
   padding-bottom: 10px;
 }
+
 .cardOffer {
   font-size: 11px;
   background: crimson;
@@ -302,14 +364,17 @@
   border-radius: 7px;
   text-align: center;
 }
+
 .cardOffer2 {
   font-size: 11px;
   padding-top: 3px;
 }
+
 .bottom {
   display: flex;
   gap: 4px;
 }
+
 .cardOfferCard2 {
   font-size: 11px;
   background: green;
@@ -324,10 +389,12 @@
 .fifthSection {
   background-color: whitesmoke;
 }
+
 .List-Class-Image {
   position: relative;
   width: 270px;
 }
+
 .CardLowerPart {
   width: 270px;
   position: relative;
@@ -335,6 +402,7 @@
   border-radius: 0 0 5px 5px;
   background-color: white;
 }
+
 .CardLowerPart ul {
   font-size: 11px;
   color: gray;
@@ -342,23 +410,27 @@
   gap: 10px;
   padding-bottom: 8px;
 }
+
 .CardLowerPart h3 {
   font-weight: 200;
   font-size: 14px;
   padding-bottom: 5px;
 }
+
 .fifthPage {
   display: flex;
   gap: 15px;
   padding: 1.5rem;
   justify-content: center;
 }
+
 .fifthPage2 {
   display: flex;
   gap: 15px;
   padding: 1.5rem;
   justify-content: center;
 }
+
 .row-5 h3 {
   padding-left: 7.5rem;
 }
@@ -367,16 +439,19 @@
 .sixthSection {
   background-color: whitesmoke;
 }
+
 .sixthPage {
   background-color: white;
   border-radius: 0 5px 5px 0;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
+
 .last-class-image {
   position: relative;
   width: 140px;
 }
+
 .sixthPage h3 {
   font-weight: 400;
   font-size: 14px;
@@ -384,6 +459,7 @@
   padding-left: 5px;
   padding-top: 5px;
 }
+
 .sixthPage ul {
   font-size: 13px;
   color: gray;
@@ -392,9 +468,11 @@
   padding-bottom: 10px;
   padding-left: 5px;
 }
+
 .Menucard {
   display: flex;
 }
+
 .MenuLower {
   display: flex;
   gap: 25px;
@@ -406,9 +484,11 @@
 .menucard:hover {
   filter: drop-shadow(1px 1px 2px black);
 }
+
 .Menucard:hover {
   filter: drop-shadow(1px 1px 2px black);
 }
+
 .thirdImage:hover {
   filter: drop-shadow(1px 1px 2px black);
 }
@@ -417,13 +497,14 @@
 .footer-1 {
   display: flex;
 }
+
 .footer-2 h3 {
-  font-weight: lighter;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 22px;
 }
-.footer-2 {
-  padding-top: 1rem;
-}
+
+
+
 .footer-2 p {
   font-size: 12px;
   width: 300px;
@@ -431,24 +512,32 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .footerIcon {
   display: flex;
   gap: 5px;
 }
+
 .unorderedList ul {
   list-style: none;
   font-size: 13px;
   line-height: 30px;
 }
+
 .unorderedList {
   width: 170px;
 }
+
 .cols-footer {
   display: flex;
-  justify-content: center;
   padding-top: 3rem;
+  justify-content: center;
   padding-bottom: 5rem;
+  gap: 30px;
+  padding-left: 7rem;
+  padding-right: 9rem;
 }
+
 .cols-footer3 {
   display: flex;
   justify-content: center;
@@ -456,34 +545,42 @@
   gap: 30px;
   padding-left: 7rem;
 }
+
 .cols-footer2 h3 {
   font-weight: lighter;
   font-size: 20px;
 }
+
 .footer-3 {
   width: 170px;
 }
+
 .footer-3 a {
   line-height: 30px;
   font-size: 13px;
   text-decoration: none;
   color: white;
 }
+
 .footer-4 {
   padding-top: 30px;
 }
+
 .footerSection {
   background-color: black;
   color: white;
 }
+
 .footerIcon img {
   background-color: white;
   border-radius: 5px;
 }
+
 @media screen and (min-width: 0px) and (max-width: 480px) {
   #desktop {
     display: none;
   }
+
   #mobileView {
     display: flex;
     justify-content: space-between;
@@ -491,62 +588,85 @@
     align-items: center;
     padding-right: 2rem;
   }
+
   .rows-2 {
     overflow-x: scroll;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: flex-start;
   }
+
+
   /* .row-3 {
     overflow-x: scroll;
   } */
-  .rows-2 {
-    flex-wrap: wrap;
-  }
+
   .fourth-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
   .Menu {
     flex-wrap: wrap;
   }
+
   .row-5 h3 {
     padding-left: 9.5rem;
   }
+
   .fifthPage {
     flex-wrap: wrap;
   }
+
   .fifthPage2 {
     flex-wrap: wrap;
   }
+
   .MenuLower {
     flex-wrap: wrap;
   }
+
   .cols-footer {
     flex-wrap: wrap;
   }
+
   .footer-1 {
     padding-bottom: 4rem;
   }
+
   .aside2 {
     padding-bottom: 3rem;
   }
+
   .cols-footer2 {
     padding-left: 0rem;
   }
+
   .cols-footer3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 4.2rem;
+    gap: 20px;
+    padding-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .footer-3 {
+    width: 130px;
+  }
+
   .Third {
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
     justify-content: flex-start;
   }
+
   .thirdSection {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
 }
+
 @media screen and (min-width: 481px) {
   #mobileView {
     display: none;
