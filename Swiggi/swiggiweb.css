@@ -634,10 +634,20 @@
     padding-bottom: 4rem;
   }
 
-  .aside2 {
-    padding-bottom: 3rem;
+  .aside1 {
+    padding-right: 4rem;
   }
 
+  .aside2 {
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+  }
+  .aside3 {
+    padding-right: 4rem;
+  }
+  .aside4 {
+    padding-right: 4rem;
+  }
   .cols-footer2 {
     padding-left: 0rem;
   }

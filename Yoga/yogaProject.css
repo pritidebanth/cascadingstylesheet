@@ -878,7 +878,11 @@
 
   .firstPage h1 {
     padding-left: 1rem;
-    font-size: 34px;
+    font-size: 27px;
+  }
+
+  .Aside {
+    padding-right: 4rem;
   }
 
   .para-1 {
