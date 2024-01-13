@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+/* //ASIDE PART */
+
+aside {
+    width: 300px;
+    padding: 2rem;
+    height: 900px;
+    background-color: #191926;
+}
+
+.aside1 {
+    display: flex;
+}
+
+.visitMore-link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.visitMore-link p {
+    font-size: 11px;
+    font-weight: bold;
+    padding-right: 6rem;
+    color: white;
+}
+
+.visitMore-link a {
+    font-weight: lighter;
+    color: white;
+}
+
+.icon-box {
+    color: white;
+}
+
+.Icon {
+    padding: 20px 10px 0px 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Icon span {
+    padding-right: 2rem;
+}
+
+.Aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Footer {
+    padding-top: 20em;
+}
+
+.footer span {
+    padding-right: 20px;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+/* //HERO SECTION */
+.heroSection {
+    width: 800px;
+}
+
+.rightpart1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rightpart1 a {
+    font-size: 12px;
+    color: gray;
+}
+
+.RightSide {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border: 2px solid #8080803b;
+}
+
+.search {
+    font-size: 13px;
+    border: 2px solid #8080804f;
+    border-radius: 5px;
+    width: 20rem;
+    padding-left: 5px;
+    background-color: #a8a2a217;
+}
+
+.search span {
+    padding-right: 5px;
+}
+
+.search a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #8080805e;
+}
+
+.rightPart2 {
+    display: flex;
+    gap: 15px;
+    padding-right: 1rem;
+}
+
+.information a {
+    color: #000;
+    padding: 5px;
+
+
+}
+
+/* //main section */
+.MainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    background-color: whitesmoke;
+}
+
+.mainSection {
+    /* display: flex;
+    justify-content: center; */
+    width: 682px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.rightSide1 p {
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 2rem;
+}
+
+.paymentProcess {
+    display: flex;
+    gap: 20px;
+}
+
+.paymentProcess img {
+    border: 2px solid black;
+}
+
+.rezorpay {
+    padding-top: 1.5rem;
+}
+
+button {
+    height: 25px;
+    width: 70px;
+    border: 3px solid skyblue;
+    background-color: white;
+}
+
+.setUp {
+    padding-top: 1.5rem;
+}
+
+.payment1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.setUp a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.toggle {
+    padding-top: 1.5rem;
+    font-size: 40px;
+    color: gray;
+}
+
+.RightBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    background-color: whitesmoke;
+}
+
+.RightSide3 {
+    display: flex;
+    justify-content: center;
+    width: 682px;
+    background-color: white;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.Finish {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    background-color: whitesmoke;
+
+}
+.customButton{
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+}
+.customButton a{
+    font-size: 16px;
+}
